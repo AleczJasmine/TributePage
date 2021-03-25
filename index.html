@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<head>
+  <!-- OTHER NEEDED INFO LINKS-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tribute Page for Hayao Miyazaki</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet" type="text/css">
+  <!-- MAIN CSS FOR THE PROJECT-->
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+     font-family: 'Roboto', sans-serif;
+     background: #FFD6AF;
+     font-size:1.2rem;
+     line-height:1.5rem;
+     width:100%;
+     margin:0;
+     padding:0;
+   }
+   img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border:1px solid #A33B20;
+    box-shadow: 0 4px 5px 0 #A33B20, 0 3px 20px 0 #A33B20;
+    
+  }
+  header{
+   background-color: #6B4B3E;
+   min-height: 20vh;
+ }
+ nav{
+  margin-left:2px;
+  text-align: center;
+  padding:0.5rem
+}
+h2{
+  text-align:center;
+  background:#6B4B3E;
+  padding:1rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+p{
+  margin:0 1rem;
+  text-align: justify;
+  background-color: white;
+  opacity: 0.80;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.2rem;
+  background:#6B4B3E;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: white;
+
+}
+
+#img-div{
+  text-align: center;
+}
+
+#img-caption{
+  margin-top: 3px;
+}
+#main-nav ul{
+  margin-top:1rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#main-nav li{
+  display: inline;
+  padding:3px;
+}
+#main-nav li a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color:white;
+  transition:background 500ms ease;
+  padding: 25px;
+}
+#main-nav li a:hover{
+  background:#C49E85;
+  color: black;
+}
+#subject{
+  text-align: center;
+
+}
+#main{
+  margin:0;
+}
+#title{
+  font-size:75px;
+  margin-top: 0px;
+  padding-top: 30px;
+  font-family: 'Abril Fatface', serif;
+  color:white;
+  letter-spacing: 5px;
+}
+#shorttitle{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+#quote-text ul{
+  line-height: 3rem;
+}
+#quote-text li{
+  list-style: linear-gradient(to right, green, white);
+}
+#tribute-link{
+  text-decoration: none;
+}
+@media(min-width:700px){
+  nav{
+    text-align: start;
+  }
+  #tribute-info{
+    display: flex;
+  }
+  #right{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+  #left{
+    flex:1;
+
+  }
+}
+#shortdescription{
+  margin-top: 5px;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+  <!-- HEADER AND NAVIGATION BAR -->
+  <header>
+    <section id="header">
+      <div id="subject">
+        <h1 id="title">-- Hayao Miyazaki --</h1>
+      </div>
+      <nav>
+        <div id="main-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#more">More Info</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <!-- PINAKA MAIN PART OF THE WEBSITE -->
+  <!-- RIGHT SIDE OF THE WEBSITE -->
+  <main id="main">
+    <div id="tribute-info">
+      <div id="right">
+        <div id="img-div">
+          <figure>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg" alt="Hayao Miyazaki" id="image">
+
+            <figcaption id="img-caption">A photo of Hayao Miyazaki</figcaption>
+          </figure>
+        </div>
+      </div>
+      <!-- LEFT SIDE OF THE WEBSITE -->
+      <div id="left">
+        <p id="shortdescription">"One of Japan's greatest animation directors"<br>
+        Studio Ghibli Represents: </p><br>
+        <img src="https://i.pinimg.com/originals/38/1f/c2/381fc2b64aaaebbd30cf9481c44c53c3.jpg" alt="Hayao Miyazaki's Movies">
+
+        <!-- ABOUT PART OF THE WEBSITE -->
+        <section id="about">
+          <div class="about-text">
+            <h2 id="about">About</h2>
+            <p>Hayao Miyazaki is a Japanese animator, director, producer, screenwriter, author, and manga artist. A co-founder of Studio Ghibli, a film and animation studio, he has attained international acclaim as a masterful storyteller and as a maker of animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation.
+
+            </p>
+          </div>
+        </section>
+
+        <!-- BACKGROUND PART OF THE WEBSITE -->
+        <section id="background">
+          <div id="background-text">
+            <h2 id="background">Background</h2>
+            <p>Hayao Miyazaki was born in Tôkyô on January 5, 1941. He started his career in 1963 as an animator at the studio Toei Douga studio, and was subsequently involved in many early classics of Japanese animation. From the beginning, he commanded attention with his incredible drawing ability and the seemingly endless stream of movie ideas he proposed.</p>
+            <p>In addition to animation, Miyazaki also draws manga. His major work was the Nausicaä manga, an epic tale he worked on intermittently from 1982 to 1984 while he was busy making animated films. Another manga, Hikoutei Jidai, was later evolved into his 1992 film Porco Rosso (1992).
+            </p>
+          </div>
+        </section>
+
+        <!-- MOVIES PART OF THE WEBSITE -->
+        <section id="movies">
+          <div id="movies-text">
+            <h2 id="movies">Movies</h2>
+            <p>There are many notable movies that were created and directed by Hayao Miyazaki, a list of the most popular ones include:
+              <ul>
+                <li> Howl's Moving Castle</li>
+                <li> Kiki’s Delivery Service</li>
+                <li> Castle in the Sky</li>
+                <li> Princess Mononoke </li>
+                <li> My Neighbor Totoro </li>
+                <li> Spirited Away</li>
+              </ul>
+            </p>
+            <p> To view a full list of all his other movies or series 
+              <a href="https://www.imdb.com/name/nm0594503/" target="_blank" id="tribute-link">click here</a></p>
+            </div>
+          </section>
+
+          <!-- AWARDS PART OF THE WEBSITE -->
+          <section id="awards">
+            <div id="awards-text">
+              <h2 id="awards">Awards</h2>
+              <p>With a ever-continuing list of awards and achievements due to his constant effort, he has a list of awards from the following:
+                <ul>
+                  <li> Academy Awards, USA</li>
+                  <li> BAFTA Awards</li>
+                  <li> 20/20 Awards</li>
+                  <li> Academy of Science Fiction, Fantasy & Horror Films, USA </li>
+                  <li> Alliance of Women Film Journalists </li>
+                  <li> Amsterdam Fantastic Film Festival</li>
+                  <li> Annie Awards</li>
+                  <li> and a whole lot more as the list goes on!
+                  </ul>
+                </p>
+                <p> To view a full list of all his other awards
+                  <a href="https://www.imdb.com/name/nm0594503/awards" target="_blank" id="tribute-link">click here</a></p>
+                </div>
+              </section>
+              <!-- MORE INFO PART -->
+              <section id="more">
+                <div id="more">
+                  <h2 id="more">More Information</h2>
+                  <p> To know more about Hayao Miyazaki, visit his 
+                    <a href="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank" id="tribute-link">Wikipedia page</a></p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+
+          <!-- GO BACK UP TO THE TOP FUNCTIONALITY -->
+          <br>
+          <div id="main-nav">
+            <ul>
+              <li><a href="#header" style="color: black;">Click here to go back to the top</a></li>
+            </ul>
+          </div>
+          <br>
+
+          <!-- FOOTERRR -->
+          <footer>
+            <div>Presented by Alecz Jasmine M. Chan</div>
+          </footer>
+
+        </main>
+      </body>
+
+      </html>
